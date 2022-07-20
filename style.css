@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 rem;
+    padding: 0 rem;
     box-sizing: border-box;
 
 }
@@ -8,6 +8,16 @@
 
 
 
+
+  header{
+    background-image: url('https://source.unsplash.com/H8X-2bchJI8');
+    background-size: cover;
+    color: black;
+    padding: 25vh 5%;
+    border: none;
+    text-align: center;
+  }
+  
 
 
 
