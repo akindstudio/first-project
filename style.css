@@ -5,21 +5,38 @@
 
 }
 
+/*--------------temporary designs--------*/
 
 
 
-
-  header{
-    background-image: url('https://source.unsplash.com/H8X-2bchJI8');
-    background-size: cover;
-    color: black;
-    padding: 25vh 5%;
-    border: none;
-    text-align: center;
+*{
+    padding: 0.5 rem ;
+    border: 1px solid rgb(32, 30, 30);
+    
   }
+
+body{border: none;}
   
+html{border: none;}
+
+/*-------------------universal styles and utility classes-----------*/
+
+.bg-image{
+    background-image: url('images/sleep-co/sleep-co-bed.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
 
 
+.padded{
+    padding: 5%;
+}
 
+.padded-sm{
+    padding: 1rem;
+}
 
-
+.bg-dark{
+    background-color: #192b37;
+    color: white;
+}
