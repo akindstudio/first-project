@@ -9,13 +9,16 @@
 
 
 
-*{
-    padding: 0.5rem ;
+section{
     border: 1px solid rgb(143, 137, 137);
     
   }
 
-body{border: none;}
+body{
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    color:#192b37;
+}
   
 html{border: none;}
 
@@ -28,6 +31,20 @@ html{border: none;}
 }
 
 /*-------------------universal styles and utility classes-----------*/
+
+
+header{
+    background-image: url('images/sleep-co/sleep-co-sheets.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3{
+    font-size: 5.5rem;
+    line-height: 1;
+}
+
+
 
 .padded{
     padding: 5%;
@@ -53,4 +70,6 @@ html{border: none;}
 .font-weight-normal{ font-weight: notmal;}
 .font-weight-light{ font-weight: light;}
 .font-weight-extra-bold{ font-weight: bold;}
+
+.featured-text{ color: rgb(226, 190, 7);}
 
