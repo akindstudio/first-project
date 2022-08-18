@@ -49,6 +49,7 @@ header{
     background-image: url('images/sleep-co/sleep-co-sheets.jpg');
     background-size: cover;
     background-position: center;
+    
 }
 
 header h3{
@@ -62,7 +63,7 @@ header h2{
 }
 
 nav a{
-    padding: 0.5rem;
+    padding-left: 0.5rem;
     text-transform: capitalize;
 }
 
@@ -157,3 +158,4 @@ p{
 }
 
 
+@media(max-width:64em){}
